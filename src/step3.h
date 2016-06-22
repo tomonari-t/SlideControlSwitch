@@ -13,6 +13,7 @@ void setup()
 {
   // ボタン用のピンの初期化
   pinMode(FORWARD_SWITCH, INPUT);
+  digitalWrite(FORWARD_SWITCH, LOW);
   // Mac側のシリアルポートの初期化
   Serial.begin(PORATE);
   // Bluetooth側のシリアルポートの初期化

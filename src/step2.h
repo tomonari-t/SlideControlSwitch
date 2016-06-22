@@ -10,8 +10,6 @@ SoftwareSerial btSerial(BT_RX, BT_TX); // Bluetoothとやりとりするため�
 
 void setup()
 {
-  // ボタン用のピンの初期化
-  pinMode(FORWARD_SWITCH, INPUT);
   // Mac側のシリアルポートの初期化
   Serial.begin(PORATE);
   // Bluetooth側のシリアルポートの初期化
