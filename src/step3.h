@@ -1,6 +1,6 @@
 #include <SoftwareSerial.h>
 
-#define FORWARD_SWITCH 13
+#define FORWARD_SWITCH 12
 #define BT_RX 10 // Arduinohは10番で通信を受け付けるRN42ではTXD
 #define BT_TX 11 // Arduinohは11番で通信を送信するRN42ではRXD
 
