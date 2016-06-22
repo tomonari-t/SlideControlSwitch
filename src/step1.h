@@ -4,7 +4,7 @@
 #define BT_TX 11
 
 #define PWM_WIDTH 500
-#define PORATE 115200
+#define PORATE 9600
 
 
 SoftwareSerial btSerial(BT_RX, BT_TX); // Bluetoothとやりとりするためのシリアル設定
